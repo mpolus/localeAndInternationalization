@@ -5,9 +5,9 @@ import java.util.Locale;
 public class LocaleDateConversion {
 
     public static void main(String[] args) {
-        Locale usLocale = Locale.US; // Define Locale for US
-        Locale franceLocale = Locale.FRANCE; // Define Locale for France
-        Locale japanLocale = Locale.JAPAN; // Define Locale for Japan
+        Locale usLocale = Locale.US;
+        Locale franceLocale = Locale.FRANCE;
+        Locale japanLocale = Locale.JAPAN;
 
         LocalDate now = LocalDate.now();
 
