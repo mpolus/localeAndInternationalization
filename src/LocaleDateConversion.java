@@ -18,7 +18,7 @@ public class LocaleDateConversion {
 
 
     private static void printFormattedDate(Locale locale, LocalDate date) {
-        // TODO: Print the language and country of the locale using locale.getLanguage() and locale.getCountry()
+
         System.out.println("Language: " + locale.getLanguage());
         System.out.println("Country: " + locale.getCountry());
 
